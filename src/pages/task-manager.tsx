@@ -188,6 +188,9 @@ const TaskManager = () => {
           Cancel
         </button>
       )}
+      <Link href='/' className="mt-4 text-blue  p-2 pd-2.5 ml-2 rounded-md hover:bg-gray-200 transition-all duration-200">
+        Home
+      </Link>
       <ul className="space-y-4">
         {tasks.map((task) => (
           <li
@@ -216,6 +219,7 @@ const TaskManager = () => {
           </li>
         ))}
       </ul>
+      
     </div>
   );
 };
